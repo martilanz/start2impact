@@ -1,0 +1,120 @@
+
+* {
+   
+    font-family: Verdana;
+
+}
+
+.navbar {
+    display: flex;
+    width:100%;
+    align-items: center;
+   
+}
+
+
+.first {
+    padding:100px; 
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    border:10px solid white;
+    background-color: #EFEEEE;
+    background-image: url("business.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: right;
+}
+
+span {
+    
+    color:black;
+      
+}
+
+.testo {
+    color: grey;
+}
+.presentazione {
+    padding:100px;
+    display:flex;
+  flex-flow: row nowrap;
+  border:10px solid white; 
+  background-color:#EFEEEE;
+
+}
+
+.A {
+    order:2;
+   padding:10px;
+}
+
+.B {
+
+    order:1;
+
+
+}
+
+
+
+
+.skills {
+    background-color: #EFEEEE;
+    padding:100px;
+    border:10px solid white; 
+}
+
+.certificato {
+    padding:100px;
+    background-color: #EFEEEE;
+    border:10px solid white; 
+}
+
+.certificato > .certificate {
+    display:flex;
+    justify-content: center;
+    padding:20px;
+}
+
+
+.contact {
+    background-color: #EFEEEE;
+    padding:100px;
+    border:10px solid white;
+    
+   
+}
+
+.fa {
+    padding:10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 50%;
+  }
+
+  .fa-instagram {
+    background:#ea4c89;
+    color: white;
+    border-radius: 50%;
+  }
+
+  .email {
+       display:flex;
+       flex-direction: column;
+       width: 80%;
+  }
+
+
+
